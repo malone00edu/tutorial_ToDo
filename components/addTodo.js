@@ -10,7 +10,7 @@ export default function AddTodo({submitHandler}) {
         setText(val);
     }
     return (
-        // Passes the current text string to the function submitHandler, so it can be added to the ToDo list in App.js
+        // Passes the current text string to the function submitHandler, so it can be added to the list in App.js
         <View>
             <TextInput
                 style={styles.input}

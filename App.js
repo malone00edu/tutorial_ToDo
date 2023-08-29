@@ -4,7 +4,7 @@ import Header from './components/header'
 import TodoItem from './components/todoItem'
 import AddTodo from './components/addTodo'
 
-/* The main function of the ToDo list app */
+/* The main function of the list. */
 export default function App() {
     /* A list containing tasks needing to be done */
     const [todos, setTodos] = useState([
